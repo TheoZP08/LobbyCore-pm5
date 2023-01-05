@@ -13,14 +13,18 @@ use pocketmine\item\ItemFactory;
 use pocketmine\item\Item;
 use pocketmine\item\ItemIds;
 use pocketmine\event\player\PlayerInteractEvent;
+use pocketmine\command\Command;
+use pocketmine\command\CommandSender;
+use pocketmine\event\Listener;
+use pocketmine\plugin\PluginBase;
+use pocketmine\utils\Config;
 
 use Vecnavium\FormsUI\Form;
 use Vecnavium\FormsUI\FormAPI;
 use Vecnavium\FormsUI\SimpleForm;
 use NordMC\LobbyCore;
 
-class EventListener implements Listener
-{
+class EventListener extends PluginBase implements Listener {
 
     private $plugin;
 
