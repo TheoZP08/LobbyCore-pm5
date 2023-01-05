@@ -1,0 +1,72 @@
+#NordMC.Core made by FaizDev 
+
+Join-Message: "§8[§b+§8]§b{player}"
+
+Quit-Message: "§8[§c-§8]§c{player}"
+
+#Permissions Message Confjg
+
+NotPermissions: "§cYou do not have permissions to use"
+
+#Hub Message Config
+
+Hub-Message: "Volvistes al lobby {player}"
+
+#Menu Games Config
+
+GameTitle: "§bMiniGames"
+GameInfo: "§fChoose the minigame you wanna play!"
+
+GameForm1: "§fSky§bWars"
+GameForm2: "§fBed§bWars"
+GameForm3: "§fThe§bBridge"
+GameForm4: "§fFi§bst"
+GameForm5: "§fF§eF§bA"
+GameForm6: "§fSu§bmo"
+
+#Menu Games Command Config
+
+CommandForm1: "play sw"
+CommandForm2: "play bw"
+CommandForm3: "play tb"
+CommandForm4: "play fist"
+CommandForm5: "play ffa"
+CommandForm6: "play sumo"
+
+#Menu Cosmetics Config
+
+CosmeticTitle: "Cosmetics"
+CosmeticInfo: "Cosmeticos solo para VIP"
+
+CosmeticForm1: "Fly"
+CosmeticForm2: "Size"
+CosmeticForm3: "Nick"
+CosmeticForm4: "NameColor"
+CosmeticForm5: "Cape"
+
+#Menu Fly Config
+
+FlyTitle: "# Fly ON & Fly OFF #"
+FlyInfo: "# Fly for VIP #"
+
+FlyForm1: "FLY ON"
+FlyForm2: "FLY OFF"
+
+#Message Size Config
+
+SizeMessageSmall: "§aSize Small"
+
+SizeMessageNormal: "§aSize normal"
+
+SizeMessageBig: "§aSize big"
+
+#Menu Size Config
+
+SizeTitle: "§bSizeUI"
+SizeInfo: "§cChange your size!"
+
+SizeForm1: "§aSize Small"
+SizeForm2: "§aSize Normal"
+SizeForm3: "§aSize Big"
+
+#Soon More Updates
