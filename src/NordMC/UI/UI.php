@@ -18,13 +18,9 @@ use Vecnavium\FormsUI\SimpleForm;
 
 use NordMC\LobbyCore;
 
-class UI {
+class UI extends PluginBase implements Listener {
 
     public $plugin;
-
-    public function __construct(){
-        $this->plugin = LobbyCore::getInstance();
-    }
 
     public function getCosmetics(Player $player){
         $form = new SimpleForm(function(Player $player, int $data = null){
