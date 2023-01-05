@@ -23,7 +23,7 @@ use Vecnavium\FormsUI\FormAPI;
 use Vecnavium\FormsUI\SimpleForm;
 use NordMC\LobbyCore;
 
-class EventListener extends PluginBase implements Listener {
+class EventListener implements Listener {
 
     private $plugin;
 
