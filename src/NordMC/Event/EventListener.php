@@ -15,7 +15,6 @@ use pocketmine\item\ItemIds;
 use pocketmine\event\player\PlayerInteractEvent;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
-use pocketmine\event\Listener;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\Config;
 
