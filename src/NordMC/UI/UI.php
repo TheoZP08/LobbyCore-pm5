@@ -18,7 +18,7 @@ use Vecnavium\FormsUI\SimpleForm;
 
 use NordMC\LobbyCore;
 
-class UI extends PluginBase implements Listener {
+class UI {
 
     public $plugin;
 
