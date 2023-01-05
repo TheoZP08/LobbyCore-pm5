@@ -5,32 +5,12 @@ namespace NordMC\UI;
 use pocketmine\player\Player;
 use pocketmine\Server;
 use pocketmine\utils\TextFormat as MG;
-use pocketmine\plugin\PluginBase;
-use pocketmine\entity\Entity;
-use pocketmine\event\entity\EntityTeleportEvent;
-use pocketmine\event\entity\EntityDamageEvent;
-use pocketmine\event\entity\EntityDamageByEntityEvent;
-use pocketmine\event\entity\EntityDamageByChildEntityEvent;
-use pocketmine\event\Listener;
-use pocketmine\utils\TextFormat;
-use pocketmine\event\player\PlayerJoinEvent;
-use pocketmine\event\player\PlayerQuitEvent;
-use pocketmine\player\GameMode;
-use pocketmine\event\EventPriority;
-use pocketmine\event\entity\ProjectileHitEvent;
-use pocketmine\entity\projectile\EnderPearl;
-use pocketmine\entity\Living;
-use pocketmine\item\ItemFactory;
-use pocketmine\math\Vector3;
-use pocketmine\world\Position;
-use pocketmine\world\World;
-use pocketmine\utils\TextFormat as C;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
-use pocketmine\command\CommandExecutor;
-use pocketmine\command\ConsoleCommandSender;
-use pocketmine\event\player\PlayerInteractEvent;
-use pocketmine\event\inventory\InventoryTransactionEvent;
+use pocketmine\event\Listener;
+use pocketmine\plugin\PluginBase;
+use pocketmine\utils\Config;
+
 
 use Vecnavium\FormsUI\Form;
 use Vecnavium\FormsUI\FormAPI;
@@ -38,7 +18,7 @@ use Vecnavium\FormsUI\SimpleForm;
 
 use NordMC\LobbyCore;
 
-class UI {
+class UI extends PluginBase implements Listener {
 
     public $plugin;
 
