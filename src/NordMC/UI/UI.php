@@ -15,7 +15,6 @@ use pocketmine\event\Listener;
 use pocketmine\utils\TextFormat;
 use pocketmine\event\player\PlayerJoinEvent;
 use pocketmine\event\player\PlayerQuitEvent;
-use pocketmine\player\Player;
 use pocketmine\player\GameMode;
 use pocketmine\event\EventPriority;
 use pocketmine\event\entity\ProjectileHitEvent;
