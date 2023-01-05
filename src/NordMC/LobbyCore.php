@@ -46,4 +46,7 @@ class LobbyCore extends PluginBase implements Listener {
     public static function getInstance() : LobbyCore {
         return self::$instance;
     }
+    public static function getUI() : UI {
+        return new UI();
+    }
 }
