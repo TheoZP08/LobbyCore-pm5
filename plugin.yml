@@ -1,0 +1,21 @@
+---
+name: LobbyCore
+main: NordMC\LobbyCore
+version: 1.0.0
+api: 4.0.0
+author: FaizDev
+
+permissions:
+  core.use.cosmetics:
+    default: op
+  core.use.fly:
+    default: op
+  core.use.size:
+    default: op
+  core.use.namecolor:
+    default: op
+  core.break:
+    default: op
+  core.place:
+    default: op
+---
