@@ -62,8 +62,7 @@ class LobbyCore extends PluginBase implements Listener {
         $this->getScheduler()->scheduleRepeatingTask(new AlwaysDay(), 40);
         $this->getServer()->getPluginManager()->registerEvents(new EventListener(), $this);
         $this->getServer()->getPluginManager()->registerEvents(new Protection(), $this);
-        @mkdir($this->getDataFolder());
-        $this->saveDefaultConfig();
+        $this->saveResource("config.yml");
         $this->getServer()->getCommandMap()->register("/hub", new HubCommand());
         $this->getServer()->getCommandMap()->register("/item", new ItemCommand());
     }
