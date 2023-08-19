@@ -2,7 +2,7 @@
 name: LobbyCore
 main: NordMC\LobbyCore
 version: 1.0.0
-api: 4.0.0
+api: 5.0.0
 author: FaizDev
 
 permissions:
