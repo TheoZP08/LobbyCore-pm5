@@ -1,5 +1,5 @@
 # LobbyCore
-LobbyCore API 4.0.0
+LobbyCore API 5.0.0
 
 # Commands
 /hub - Back to the lobby
