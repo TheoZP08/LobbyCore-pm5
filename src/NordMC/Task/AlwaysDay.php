@@ -6,14 +6,19 @@ namespace NordMC\Task;
 
 use pocketmine\scheduler\Task;
 use pocketmine\Server;
-use pocketmine\world\World;
+use pocketmine\world\WorldManager;
+use pocketmine\world\Time;
 
 class AlwaysDay extends Task
 {
     public function onRun(): void {
-        foreach(Server::getInstance()->getWorldManager()->getWorlds() as $worlds) {
-            $worlds->setTime(World::TIME_DAY);
+        $worldManager = Server::getInstance()->getWorldManager();
+        
+        foreach ($worldManager->getWorlds() as $world) {
+            if ($world instanceof WorldManager) {
+                $world->setTime(Time::TIME_DAY);
+            }
         }
     }
-
 }
+
